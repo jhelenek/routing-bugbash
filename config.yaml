@@ -20,7 +20,7 @@ staticRedirects:
     status: 200
 # adds authentication to your site. Commented out as a policy with the name auth02 must exist
  authentication:
-   policyName: test-auth-policy
+   policyName: "test-auth-policy"
    includePaths:
      - /red # red is locked down
 
